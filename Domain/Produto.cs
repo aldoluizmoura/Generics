@@ -1,15 +1,12 @@
 ﻿namespace ClassesGenericas.Domain
 {
-    public class Produto
+    public class Produto : Entity
     {
         public Produto(string nome, decimal valor)
         {
-            Id = Guid.NewGuid();
             Nome = nome;
             Valor = valor;
-        }
-
-        public Guid Id { get; set; }
+        }      
         public string Nome{ get; set; }
         public decimal Valor{ get; set; }
 
@@ -25,7 +22,6 @@
             if (produto == null) return false;
 
             return produto.Id == Id;
-
         }
 
     }

@@ -4,14 +4,14 @@ namespace ClassesGenericas
 {
     public static class ImprimirDados
     {
-        public static void ImprimirItens(List<object> objetos)
+        public static void ImprimirItens<T>(List<T> entidades) where T : Entity
         {
-            if (objetos.Count == 0)
+            if (entidades.Count == 0)
             {
-                Console.WriteLine($"Lista de {objetos.GetType().Name} vázia");
+                Console.WriteLine($"Lista de {typeof(T).Name} vázia");
             }
 
-            foreach (var item in objetos)
+            foreach (var item in entidades)
             {
                 Console.WriteLine(item);
             }
