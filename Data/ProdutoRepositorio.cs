@@ -16,7 +16,7 @@ namespace ClassesGenericas.Data
             _produtos.Add(produto);
         }
 
-        public List<Produto> ObterProdutos()
+        public List<Produto> ObterTodos()
         {
             return _produtos;
         }
