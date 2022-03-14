@@ -4,27 +4,14 @@ namespace ClassesGenericas
 {
     public static class ImprimirDados
     {
-        public static void ImprimirProdutos(List<Produto> produtos)
+        public static void ImprimirItens(List<object> objetos)
         {
-            if (produtos.Count == 0)
+            if (objetos.Count == 0)
             {
-                Console.WriteLine("Lista de Produtos vázia");
+                Console.WriteLine($"Lista de {objetos.GetType().Name} vázia");
             }
 
-            foreach (var item in produtos)
-            {
-                Console.WriteLine(item);
-            }
-        }
-
-        public static void ImprimirCategorias(List<Categoria> categorias)
-        {
-            if (categorias.Count == 0)
-            {
-                Console.WriteLine("Lista de Categorias vázia");
-            }
-
-            foreach (var item in categorias)
+            foreach (var item in objetos)
             {
                 Console.WriteLine(item);
             }
