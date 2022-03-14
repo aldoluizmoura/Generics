@@ -2,7 +2,7 @@
 
 namespace ClassesGenericas.Data
 {
-    public class Repositorio<T> where T : Entity
+    public class Repositorio<T> : IRepositorio<T> where T : Entity
     {
         private List<T> _lista { get; set; }
 

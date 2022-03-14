@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "1mym80fmuiddfFQT/0phRwjlNj5XKU+AKyVtHtbwP5rRDKON6favZfT4m4iyTeoLjayDMSXExXGyXxVB9xwTcg==",
+  "dgSpecHash": "ydVjYaZ8LoZwYeRvrXpbUj5c6kennci5MV/Mq8bREEbNc9qqjGVqVFApFUj4IVWlcsHMaiQDe2j1s4et9WDu9A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Aldo Luiz\\Documents\\Estudos\\c#\\ClassesGenericas\\ClassesGenericas\\ClassesGenericas.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Aldo Luiz\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\Aldo Luiz\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Aldo Luiz\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

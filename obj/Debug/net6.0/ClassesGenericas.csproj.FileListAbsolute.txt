@@ -13,3 +13,6 @@ C:\Users\Aldo Luiz\Documents\Estudos\c#\ClassesGenericas\ClassesGenericas\obj\De
 C:\Users\Aldo Luiz\Documents\Estudos\c#\ClassesGenericas\ClassesGenericas\obj\Debug\net6.0\ref\ClassesGenericas.dll
 C:\Users\Aldo Luiz\Documents\Estudos\c#\ClassesGenericas\ClassesGenericas\obj\Debug\net6.0\ClassesGenericas.pdb
 C:\Users\Aldo Luiz\Documents\Estudos\c#\ClassesGenericas\ClassesGenericas\obj\Debug\net6.0\ClassesGenericas.genruntimeconfig.cache
+C:\Users\Aldo Luiz\Documents\Estudos\c#\ClassesGenericas\ClassesGenericas\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Aldo Luiz\Documents\Estudos\c#\ClassesGenericas\ClassesGenericas\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Aldo Luiz\Documents\Estudos\c#\ClassesGenericas\ClassesGenericas\obj\Debug\net6.0\ClassesGenericas.csproj.CopyComplete
