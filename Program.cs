@@ -14,8 +14,8 @@ produtoRepositorio.Adicionar(new Produto("Luva", 125));
 categoriaRepositorio.Adicionar(new Categoria("Eletronicos"));
 categoriaRepositorio.Adicionar(new Categoria("Esportes"));
 
-ImprimirDados.ImprimirItens(produtoRepositorio.ObterTodos());
-ImprimirDados.ImprimirItens(categoriaRepositorio.ObterTodos());
+produtoRepositorio.ObterTodos().ImprimirItens();
+categoriaRepositorio.ObterTodos().ImprimirItens();
 
 var primeiroProduto = produtoRepositorio.ObterTodos()[0];
 var primeiraCategoria = categoriaRepositorio.ObterTodos()[0];

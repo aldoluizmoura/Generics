@@ -4,7 +4,7 @@ namespace ClassesGenericas
 {
     public static class ImprimirDados
     {
-        public static void ImprimirItens<T>(List<T> entidades) where T : Entity
+        public static void ImprimirItens<T>(this List<T> entidades) where T : Entity
         {
             if (entidades.Count == 0)
             {
